@@ -75,7 +75,6 @@ def scrape_comments_with_replies():
     return box
 
 
-
 final = scrape_comments_with_replies()
 for i in final:
     print(i)
